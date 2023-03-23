@@ -1,70 +1,31 @@
-# Getting Started with Create React App
+<!-- Solution to Question No. 2 -->
+Five significant features of React are as follows
+i. JSX: It extends the ES6 so that HTML like text can co-exist with JavaScript react code
+ii. Components: ReactJS application is made up of multiple components. The components are reusable and this helps to maintain the code when working on larger scale projects.
+iii. One-way Data Binding: ReactJS is designed in such a manner that follows unidirectional data flow or one-way data binding.
+iv. Virtual DOM: React makes use of a virtual DOM which is a representation of the original DOM object in JS.
+v. Simplicity: ReactJS uses JSX file which makes the application simple and to code as well as understand.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+<!-- Solution to Question No. 3 -->
+Five major advantages of React are;
+i. ReactJS is much easy to learn and use.
+ii. It makes the creation of dynamic web applications easy
+iii. The use of reusable codes/components helps to make React applications easier to develop and maintain
+iv. ReactJS improves performance due to virtual DOM.
+v. ReactJS is known to be SEO friendly
 
-In the project directory, you can run:
 
-### `npm start`
+<!-- Solution to Question No. 4 -->
+The Software Engineer that created React is Jordan Walke. React is owned and managed by Meta (formally Facebook).
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+<!-- Solution to Question No. 5 -->
+Three differences between HTML & JSX
+i.  HTML elements have attributes while JSX elements have props
+ii. In HTML we use the "class" attribute whereas in JSX we use "className" attribute. This is because "class" is a reserved keyword in JavaScript.
+iii. The “for” attribute in HTML is “HTMLFor” in JSX. This is because "for" is a reserved keyword in JavaScript.
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<!-- Solution to Question No. 6 -->
+Bbrowsers can't read JSX directly. This is because they are built to only read regular JS objects and JSX is not a regular JavaScript object. JSX codes need a transpiler (e.g Babel) to translate it to React before browsers can understand it.
